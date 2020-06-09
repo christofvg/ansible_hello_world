@@ -1,0 +1,6 @@
+---
+- name: Hello world example
+  hosts: ansible
+  tasks:
+    debug:
+      msg: "Hello world!"
